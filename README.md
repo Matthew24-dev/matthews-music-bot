@@ -1,3 +1,68 @@
+<div align="center">
+
+# 🎵 Matthew's Music Bot
+
+### *A powerful Telegram music bot that plays any song you want — instantly, free, forever.*
+
+[![Telegram Bot](https://img.shields.io/badge/Telegram-@MusicBot-blue?style=for-the-badge&logo=telegram)](https://t.me/)
+[![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Made With](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)]()
+
+[Features](#-features) • [Installation](#-installation) • [Commands](#-commands) • [Deploy](#-deploy-your-own) • [Credits](#-credits)
+
+</div>
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎶 Music Playback
+- 🎵 **Play any song** by name
+- 🔗 **YouTube link support** (direct)
+- 🔍 **Smart search** with results picker
+- 📥 **High-quality audio** downloads
+- 🎨 **Album art & metadata** included
+- 📱 **Works in DMs & Groups**
+
+</td>
+<td width="50%">
+
+### 🛠️ Pro Features
+- 📝 **Lyrics finder** (free API)
+- ⏱️ **Duration display** for every track
+- 🎤 **Artist/channel info** shown
+- 🔗 **Quick YouTube link** button
+- ⚡ **Fast downloads** with yt-dlp
+- 🆓 **100% free** & open source
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎬 Preview
+
+┌─────────────────────────────────────┐
+│  🎵 Matthew's Music Bot             │
+│                                     │
+│  /play Starboy                      │
+│                                     │
+│  ⏬ Downloading audio...             │
+│                                     │
+│  ✅ Sent:                            │
+│  ┌─────────────────────────────┐   │
+│  │ 🎵 Starboy                  │   │
+│  │ ⏱ 3:50                      │   │
+│  │ 🎤 The Weeknd               │   │
+│  │ [▶️ Play in Telegram]        │   │
+│  └─────────────────────────────┘   │
+└─────────────────────────────────────┘
 
 ---
 
@@ -66,55 +131,4 @@ cd music-bot
 # Install dependencies
 pip install -r requirements.txt
 
-# Set your bot t..
-<div align="center">
-
-# 🎵 Matthew's Music Bot
-
-### *A powerful Telegram music bot that plays any song you want — instantly, free, forever.*
-
-[![Telegram Bot](https://img.shields.io/badge/Telegram-@MusicBot-blue?style=for-the-badge&logo=telegram)](https://t.me/)
-[![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Made With](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)]()
-
-[Features](#-features) • [Installation](#-installation) • [Commands](#-commands) • [Deploy](#-deploy-your-own) • [Credits](#-credits)
-
-</div>
-
----
-
-## ✨ Features
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎶 Music Playback
-- 🎵 **Play any song** by name
-- 🔗 **YouTube link support** (direct)
-- 🔍 **Smart search** with results picker
-- 📥 **High-quality audio** downloads
-- 🎨 **Album art & metadata** included
-- 📱 **Works in DMs & Groups**
-
-</td>
-<td width="50%">
-
-### 🛠️ Pro Features
-- 📝 **Lyrics finder** (free API)
-- ⏱️ **Duration display** for every track
-- 🎤 **Artist/channel info** shown
-- 🔗 **Quick YouTube link** button
-- ⚡ **Fast downloads** with yt-dlp
-- 🆓 **100% free** & open source
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎬 Preview
-
-Licence:- MIT License
+# Set your bot t…
