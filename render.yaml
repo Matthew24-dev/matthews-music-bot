@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: matthews-music-bot
+    env: python
+    plan: free
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    startCommand: "python3 -m bot"
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
