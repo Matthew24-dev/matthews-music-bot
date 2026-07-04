@@ -1,13 +1,16 @@
+
 pyrogram==2.0.106
-tgcrypto==1.2.5
-pytgcalls==3.0.0.dev24
+py-tgcalls==2.1.0
+tgcrypto
 yt-dlp
+youtube-search-python
 aiohttp
-requests
-lyricsgenius
-python-dotenv
-motor
-dnspython
-ffmpeg-python
 aiofiles
+python-dotenv
+requests
+ffmpeg-python
+Pillow
+motor
+pymongo
 psutil
+uvloop; platform_system != "Windows"
