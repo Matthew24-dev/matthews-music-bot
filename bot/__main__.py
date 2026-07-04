@@ -1,20 +1,44 @@
-from pyrogram import Client
-from bot.config import *
+import asyncio
+from pyrogram import Client, idle
+from pytgcalls import PyTgCalls
 
-app = Client(
+from bot.config import API_ID, API_HASH, BOT_TOKEN, STRING_SESSION
+
+bot = Client(
     "MatthewsMusicBot",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
 )
 
-@app.on_message()
-async def alive(_, message):
-    if message.text == "/alive":
-        await message.reply_text(
-            "🎵 Matthew's Music Bot is running successfully!"
-        )
+assistant = Client(
+    "MatthewsAssistant",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    session_string=STRING_SESSION,
+)
 
-print("Starting Matthew's Music Bot...")
+call_py = PyTgCalls(assistant)
 
-app.run()
+
+async def main():
+    await bot.start()
+    print("✅ Bot Started")
+
+    await assistant.start()
+    print("✅ Assistant Started")
+
+    await call_py.start()
+    print("✅ Voice Chat Client Started")
+
+    me = await bot.get_me()
+    print(f"Logged in as @{me.username}")
+
+    await idle()
+
+    await bot.stop()
+    await assistant.stop()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
