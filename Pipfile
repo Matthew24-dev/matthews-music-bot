@@ -1,0 +1,11 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+
+[requires]
+python_version = "3.11"
+
+[packages]
+python-telegram-bot = "==20.7"
+yt-dlp = "*"
+requests = "*"
